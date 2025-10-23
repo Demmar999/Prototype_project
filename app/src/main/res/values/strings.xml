@@ -1,0 +1,15 @@
+<resources>
+    <string name="bw">BW</string>
+    <string name="b_watch">Welcome to Bwatch</string>
+    <string name="sign">sign in to continue or use guest</string>
+    <string name="email_or_Mobile">Enter or Mobile number</string>
+    <string name="password">Password</string>
+    <string name="forgot_pass">Forgot password?</string>
+    <string name="login">Login</string>
+    <string name="create_acc">Create Account</string>
+    <string name="register">Register to access full features</string>
+    <string name="sign_up">Sign up</string>
+    <string name="Bwea">Barangay Watch:Integrity in Action</string>
+    <string name="Loading_Int">Loading Interface</string>
+    <string name="bwatch">Bwatch</string>
+</resources>
