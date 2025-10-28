@@ -12,4 +12,14 @@
     <string name="Bwea">Barangay Watch:Integrity in Action</string>
     <string name="Loading_Int">Loading Interface</string>
     <string name="bwatch">Bwatch</string>
+
+    <!-- Sign up texts -->
+    <string name="Name">Name</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="email">Email</string>
+    <string name="phone">+639213987465</string>
+    <string name="brgy">Barangay Bagong Nayon</string>
+    <string name="City">Antipolo City</string>
+    <string name="access">Sign in to continue or use Guest</string>
 </resources>
