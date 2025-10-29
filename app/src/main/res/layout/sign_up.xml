@@ -20,9 +20,8 @@
             app:cardElevation="0dp"
             app:cardBackgroundColor="#FFFFFF">
 
-
             <LinearLayout
-               android:layout_width="match_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:padding="24dp">
@@ -74,7 +73,7 @@
                             android:text="@string/access"
                             android:textColor="#7C7C8A"
                             android:textSize="12sp"
-                            android:layout_marginTop="2dp"
+                            android:layout_marginTop="2dp" />
                     </LinearLayout>
 
                 </LinearLayout>
@@ -90,22 +89,20 @@
                     android:layout_marginBottom="4dp"/>
 
                 <TextView
-                   android:layout_width="wrap_content"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/register"
                     android:textColor="#7C7C8A"
                     android:textSize="12sp"
-                    android:layout_marginBottom="20dp">
+                    android:layout_marginBottom="20dp"/>
 
-                <!-- Name Label -->
                 <TextView
-                   android:layout_height="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
                     android:text="@string/Name"
                     android:textColor="#000000"
                     android:textSize="13sp"
                     android:layout_marginBottom="8dp"/>
-
 
                 <!-- First Name and Last Name Row -->
                 <LinearLayout
@@ -141,9 +138,7 @@
                             android:paddingStart="16dp"
                             android:paddingEnd="16dp"
                             android:paddingTop="14dp"
-                            android:paddingBottom="14dp"
-                            app:boxBackgroundColor="#757575"
-                            app:boxBackgroundMode="filled" />
+                            android:paddingBottom="14dp" />
 
                     </com.google.android.material.textfield.TextInputLayout>
 
@@ -174,9 +169,7 @@
                             android:paddingStart="16dp"
                             android:paddingEnd="16dp"
                             android:paddingTop="14dp"
-                            android:paddingBottom="14dp"
-                            app:boxBackgroundColor="#757575"
-                            app:boxBackgroundMode="filled" />
+                            android:paddingBottom="14dp" />
 
                     </com.google.android.material.textfield.TextInputLayout>
 
@@ -186,7 +179,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Email Adress"
+                    android:text="@string/email_address_label"
                     android:textColor="#000000"
                     android:textSize="13sp"
                     android:layout_marginBottom="8dp" />
@@ -209,18 +202,16 @@
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/etEmail"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:hint="@string/email"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/email_hint"
+                        android:textColorHint="#9E9EA7"
+                        android:textColor="#000000"
+                        android:textSize="13sp"
                         android:inputType="textEmailAddress"
                         android:paddingStart="16dp"
-                        android:paddingTop="14dp"
                         android:paddingEnd="16dp"
-                        android:paddingBottom="14dp"
-                        android:textColor="#000000"
-                        android:textColorHint="#9E9EA7"
-                        android:textSize="13sp"
-                        app:boxBackgroundColor="#757575"
-                        app:boxBackgroundMode="filled" />
+                        android:paddingTop="14dp"
+                        android:paddingBottom="14dp" />
 
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -228,7 +219,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Phone Number"
+                    android:text="@string/phone_number_label"
                     android:textColor="#000000"
                     android:textSize="13sp"
                     android:layout_marginBottom="8dp" />
@@ -260,9 +251,7 @@
                         android:paddingStart="16dp"
                         android:paddingEnd="16dp"
                         android:paddingTop="14dp"
-                        android:paddingBottom="14dp"
-                        app:boxBackgroundColor="#757575"
-                        app:boxBackgroundMode="filled" />
+                        android:paddingBottom="14dp" />
 
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -270,7 +259,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Address"
+                    android:text="@string/address_label"
                     android:textColor="#000000"
                     android:textSize="13sp"
                     android:layout_marginBottom="8dp" />
@@ -302,9 +291,7 @@
                         android:paddingBottom="14dp"
                         android:textColor="#000000"
                         android:textColorHint="#9E9EA7"
-                        android:textSize="13sp"
-                        app:boxBackgroundColor="#757575"
-                        app:boxBackgroundMode="filled" />
+                        android:textSize="13sp" />
 
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -312,7 +299,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="City"
+                    android:text="@string/city_label"
                     android:textColor="#000000"
                     android:textSize="13sp"
                     android:layout_marginBottom="8dp" />
@@ -340,7 +327,7 @@
                         app:hintTextColor="#9E9EA7">
 
                         <com.google.android.material.textfield.TextInputEditText
-                            android:id="@+id/etCity1"
+                            android:id="@+id/etCity"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:hint="@string/City"
@@ -351,9 +338,7 @@
                             android:paddingBottom="14dp"
                             android:textColor="#000000"
                             android:textColorHint="#9E9EA7"
-                            android:textSize="13sp"
-                            app:boxBackgroundColor="#757575"
-                            app:boxBackgroundMode="filled" />
+                            android:textSize="13sp" />
 
                     </com.google.android.material.textfield.TextInputLayout>
 
@@ -373,20 +358,18 @@
                         app:hintTextColor="#9E9EA7">
 
                         <com.google.android.material.textfield.TextInputEditText
-                            android:id="@+id/etCity2"
+                            android:id="@+id/etZipCode"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:hint="@string/City"
+                            android:hint="@string/zip_code_hint"
                             android:textColorHint="#9E9EA7"
                             android:textColor="#000000"
                             android:textSize="13sp"
-                            android:inputType="text"
+                            android:inputType="number"
                             android:paddingStart="16dp"
                             android:paddingEnd="16dp"
                             android:paddingTop="14dp"
-                            android:paddingBottom="14dp"
-                            app:boxBackgroundColor="#757575"
-                            app:boxBackgroundMode="filled"/>
+                            android:paddingBottom="14dp" />
 
                     </com.google.android.material.textfield.TextInputLayout>
 
@@ -408,7 +391,7 @@
                     android:paddingStart="32dp"
                     android:paddingEnd="32dp"
                     android:layout_gravity="center"
-                    android:minWidth="0dp" />
+                    android:minWidth="0dp"/>
 
             </LinearLayout>
 
