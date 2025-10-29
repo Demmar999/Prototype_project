@@ -22,4 +22,14 @@
     <string name="brgy">Barangay Bagong Nayon</string>
     <string name="City">Antipolo City</string>
     <string name="access">Sign in to continue or use Guest</string>
+    <string name="address">Email Address</string>
+
+
+    <string name="email_address_label">Email Address</string>
+    <string name="phone_number_label">Phone Number</string>
+    <string name="address_label">Address</string>
+    <string name="city_label">City</string>
+    <string name="email_hint">Enter your email</string>
+    <string name="zip_code_hint">Zip Code</string>
+
 </resources>
