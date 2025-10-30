@@ -18,8 +18,13 @@
     <string name="first_name">First name</string>
     <string name="last_name">Last name</string>
     <string name="email">Email</string>
+    <string name="phone_no">Phone number</string>
+    <string name="email_add">Email Address</string>
     <string name="phone">+639213987465</string>
+    <string name="address">Address</string>
     <string name="brgy">Barangay Bagong Nayon</string>
+    <string name="place">City</string>
     <string name="City">Antipolo City</string>
+    <string name="pasig">Pasig City</string>
     <string name="access">Sign in to continue or use Guest</string>
 </resources>

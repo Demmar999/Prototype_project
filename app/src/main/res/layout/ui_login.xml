@@ -75,7 +75,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
                             android:text="@string/sign"
-                            android:textColor="#7C7C8A"
+                            android:textColor="#756C6C"
                             android:textSize="12sp"/>
 
                     </LinearLayout>
@@ -98,22 +98,21 @@
                     app:hintTextColor="#9E9EA7">
 
 
-
-                <com.google.android.material.textfield.TextInputEditText
-                       android:layout_width="300dp"
-                       android:id="@+id/etEmail"
-                       android:layout_height="wrap_content"
-                       android:hint="@string/email_or_Mobile"
-                       android:inputType="textEmailAddress"
-                       android:paddingStart="16dp"
-                       android:paddingEnd="16dp"
-                       android:paddingTop="14dp"
-                       android:paddingBottom="14dp"
-                       android:textColor="#000000"
-                       android:textColorHint="#9E9EA7"
-                       android:textSize="14sp"
-                       app:boxBackgroundColor="#757575"
-                       app:boxBackgroundMode="filled"/>
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etEmail"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/email_or_Mobile"
+                        android:inputType="textEmailAddress"
+                        android:paddingStart="16dp"
+                        android:paddingTop="14dp"
+                        android:paddingEnd="16dp"
+                        android:paddingBottom="14dp"
+                        android:textColor="#000000"
+                        android:textColorHint="#9E9EA7"
+                        android:textSize="14sp"
+                        app:boxBackgroundColor="#757575"
+                        app:boxBackgroundMode="filled" />
 
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -135,22 +134,21 @@
                     app:passwordToggleTint="#9E9EA7">
 
 
-
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="300dp"
-                    android:id="@+id/etPassword"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/password"
-                    android:inputType="textPassword"
-                    android:paddingStart="16dp"
-                    android:paddingEnd="16dp"
-                    android:paddingTop="14dp"
-                    android:paddingBottom="14dp"
-                    android:textColor="#000000"
-                    android:textColorHint="#9E9EA7"
-                    android:textSize="14sp"
-                    app:boxBackgroundColor="#757575"
-                    app:boxBackgroundMode="filled"/>
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etPassword"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/password"
+                        android:inputType="textPassword"
+                        android:paddingStart="16dp"
+                        android:paddingTop="14dp"
+                        android:paddingEnd="16dp"
+                        android:paddingBottom="14dp"
+                        android:textColor="#000000"
+                        android:textColorHint="#909099"
+                        android:textSize="14sp"
+                        app:boxBackgroundColor="#F5F4F8"
+                        app:boxBackgroundMode="filled" />
 
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -169,7 +167,7 @@
                         android:id="@+id/tvForgotPassword"
                         android:layout_weight="1"
                         android:text="@string/forgot_pass"
-                        android:textColor="#7C7C8A"
+                        android:textColor="#756C6C"
                         android:textSize="13sp"/>
 
                     <com.google.android.material.button.MaterialButton
@@ -216,14 +214,15 @@
                         android:layout_marginTop="4sp"
                         android:layout_marginBottom="16dp"
                         android:text="@string/register"
-                        android:textColor="#7C7C8A"
+                        android:textColor="#756C6C"
                         android:textSize="12sp"/>
 
                     <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnSignUp"
                         android:layout_width="wrap_content"
                         android:layout_height="50dp"
-                        android:id="@+id/btnSignUp"
                         android:minWidth="0dp"
+                        android:layout_gravity="center"
                         android:paddingStart="32dp"
                         android:paddingEnd="32dp"
                         android:text="@string/sign_up"
@@ -233,7 +232,7 @@
                         app:backgroundTint="#FFFFFF"
                         app:cornerRadius="22dp"
                         app:strokeColor="#E5E4EB"
-                        app:strokeWidth="1dp"/>
+                        app:strokeWidth="1dp" />
                 </LinearLayout>
 
             </LinearLayout>
