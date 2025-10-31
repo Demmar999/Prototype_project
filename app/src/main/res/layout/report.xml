@@ -314,7 +314,7 @@
                     android:layout_width="28dp"
                     android:layout_height="28dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/ic_home"
+                    android:src="@drawable/baseline_home_24"
                     app:tint="#FFFFFF" />
 
             </androidx.cardview.widget.CardView>
@@ -347,7 +347,7 @@
                     android:layout_width="28dp"
                     android:layout_height="28dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/ic_reports"
+                    android:src="@drawable/outline_description_24"
                     app:tint="#FFFFFF" />
 
             </androidx.cardview.widget.CardView>
@@ -381,7 +381,7 @@
                     android:layout_width="28dp"
                     android:layout_height="28dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/ic_account"
+                    android:src="@drawable/outline_account_circle_24"
                     app:tint="#FFFFFF" />
 
             </androidx.cardview.widget.CardView>
