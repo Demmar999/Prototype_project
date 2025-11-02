@@ -1,34 +1,34 @@
 <resources>
-    <string name="app_name">Bwatch</string>
-    <string name="bw">BW</string>
-    <string name="b_watch">Welcome to Bwatch</string>
-    <string name="sign">sign in to continue or use guest</string>
-    <string name="email_or_Mobile">Enter or Mobile number</string>
-    <string name="password">Password</string>
-    <string name="forgot_pass">Forgot password?</string>
-    <string name="login">Login</string>
-    <string name="create_acc">Create Account</string>
-    <string name="register">Register to access full features</string>
-    <string name="sign_up">Sign up</string>
-    <string name="Bwea">Barangay Watch:Integrity in Action</string>
-    <string name="Loading_Int">Loading Interface</string>
-    <string name="bwatch">Bwatch</string>
+    <string name="app_name" translatable="false">Bwatch</string>
+    <string name="bw" translatable="false">BW</string>
+    <string name="b_watch" translatable="false">Welcome to Bwatch</string>
+    <string name="sign" translatable="false">sign in to continue or use guest</string>
+    <string name="email_or_Mobile" translatable="false">Enter or Mobile number</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="forgot_pass" translatable="false">Forgot password?</string>
+    <string name="login" translatable="false">Login</string>
+    <string name="create_acc" translatable="false">Create Account</string>
+    <string name="register" translatable="false">Register to access full features</string>
+    <string name="sign_up" translatable="false">Sign up</string>
+    <string name="Bwea" translatable="false">Barangay Watch:Integrity in Action</string>
+    <string name="Loading_Int" translatable="false">Loading Interface</string>
+    <string name="bwatch" translatable="false">Bwatch</string>
 
     <!-- Sign up texts -->
-    <string name="Name">Name</string>
-    <string name="first_name">First name</string>
-    <string name="last_name">Last name</string>
-    <string name="email">Email</string>
-    <string name="phone_no">Phone number</string>
-    <string name="email_add">Email Address</string>
-    <string name="phone">+639213987465</string>
-    <string name="address">Address</string>
-    <string name="brgy">Barangay Bagong Nayon</string>
-    <string name="place">City</string>
-    <string name="City">Antipolo City</string>
-    <string name="pasig">Pasig City</string>
-    <string name="access">Sign in to continue or use Guest</string>
-    <string name="e_add">Email Address</string>
+    <string name="Name" translatable="false">Name</string>
+    <string name="first_name" translatable="false">First name</string>
+    <string name="last_name" translatable="false">Last name</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="phone_no" translatable="false">Phone number</string>
+    <string name="email_add" translatable="false">Email Address</string>
+    <string name="phone" translatable="false">+639213987465</string>
+    <string name="address" translatable="false">Address</string>
+    <string name="brgy" translatable="false">Barangay Bagong Nayon</string>
+    <string name="place" translatable="false">City</string>
+    <string name="City" translatable="false">Antipolo City</string>
+    <string name="pasig" translatable="false">Pasig City</string>
+    <string name="access" translatable="false">Sign in to continue or use Guest</string>
+    <string name="e_add" translatable="false">Email Address</string>
 
 
 </resources>

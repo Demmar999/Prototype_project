@@ -378,7 +378,7 @@
                             android:id="@+id/etCity2"
                             android:layout_width="match_parent"
                             android:layout_height="48dp"
-                            android:hint="@string/City"
+                            android:hint="@string/pasig"
                             android:textColorHint="#9E9EA7"
                             android:textColor="#000000"
                             android:textSize="13sp"

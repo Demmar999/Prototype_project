@@ -24,6 +24,33 @@
 
         <!-- Example of another screen -->
         <activity android:name=".ui_login" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".ReportActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".MyReportActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".AccountActivity"
+            android:exported="false" />
 
     </application>
 
