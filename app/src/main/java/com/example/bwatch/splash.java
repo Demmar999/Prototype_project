@@ -36,16 +36,13 @@ public class splash extends AppCompatActivity {
         progressAnimator.start();
 
         // Navigate to login after 3.5 seconds
-        new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Intent intent = new Intent(splash.this, ui_login.class);
-                startActivity(intent);
-                finish();
+        new Handler(Looper.getMainLooper()).postDelayed(() -> {
+            Intent intent = new Intent(splash.this, ui_login.class);
+            startActivity(intent);
+            finish();
 
-                // Smooth transition animation
-                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
-            }
+            // Smooth transition animation
+            overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
         }, 3500);
     }
 }
