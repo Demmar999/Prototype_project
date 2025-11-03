@@ -6,6 +6,7 @@
     android:background="#E8E7F0">
 
     <LinearLayout
+        android:id="@+id/centerContent"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:orientation="vertical"
@@ -56,11 +57,11 @@
         android:layout_marginBottom="80dp"
         android:layout_alignParentBottom="true"
         app:cardCornerRadius="24dp"
-        app:cardElevation="0dp"
-        app:cardBackgroundColor="#EFEAFF">
+        app:cardElevation="12dp"
+        app:cardBackgroundColor="#CCEFEAFF">
 
         <LinearLayout
-           android:layout_width="match_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:gravity="center"
@@ -75,20 +76,20 @@
                 android:text="@string/Loading_Int"
                 android:textSize="16sp"
                 android:textStyle="bold"
+                android:textColor="#000000"
                 android:layout_marginBottom="12dp"/>
+
             <ProgressBar
-                android:layout_width="match_parent"
-                android:layout_height="6dp"
                 android:id="@+id/progressBar"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
                 style="?android:attr/progressBarStyleHorizontal"
                 android:progressTint="#6C5FFC"
                 android:progressBackgroundTint="#E5E4EB"
-                android:progress="80"
                 android:max="100"/>
 
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
-
 
 </RelativeLayout>
