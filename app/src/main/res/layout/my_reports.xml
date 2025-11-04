@@ -287,6 +287,7 @@
 
         <!-- Home Button -->
         <LinearLayout
+            android:id="@+id/homeButtonLayout"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -312,7 +313,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Home"
+                android:text="@string/home"
                 android:textColor="#000000"
                 android:textSize="11sp"
                 android:textStyle="bold"
@@ -322,6 +323,7 @@
 
         <!-- My Reports Button -->
         <LinearLayout
+            android:id="@+id/myReportsButtonLayout"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -347,7 +349,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="My Reports"
+                android:text="@string/my_reports"
                 android:textColor="#000000"
                 android:textSize="11sp"
                 android:textStyle="bold"
@@ -357,6 +359,7 @@
 
         <!-- Account Button -->
         <LinearLayout
+            android:id="@+id/accountButtonLayout"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -382,7 +385,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Account"
+                android:text="@string/Account"
                 android:textColor="#000000"
                 android:textSize="11sp"
                 android:textStyle="bold"
@@ -394,6 +397,7 @@
 
     <!-- Floating Report Button (Right Side) -->
     <LinearLayout
+        android:id="@+id/reportButtonLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -401,21 +405,21 @@
         android:orientation="vertical"
         android:gravity="center"
         android:layout_marginBottom="90dp"
-        android:layout_marginEnd="50dp">
+        android:layout_marginEnd="52dp">
 
         <androidx.cardview.widget.CardView
             android:layout_width="60dp"
             android:layout_height="60dp"
             app:cardCornerRadius="24dp"
+            android:layout_marginBottom="15dp"
             app:cardElevation="16dp"
-            android:layout_marginBottom="20dp"
             app:cardBackgroundColor="#FF6B9D">
 
             <ImageView
                 android:layout_width="43dp"
                 android:layout_height="32dp"
                 android:layout_gravity="center"
-                android:src="@drawable/outline_description_24"
+                android:src="@drawable/report"
                 app:tint="#FFFFFF" />
 
         </androidx.cardview.widget.CardView>
@@ -423,10 +427,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Report"
+            android:layout_marginBottom="15dp"
+            android:text="@string/Report"
             android:textColor="#000000"
             android:textSize="11sp"
-            android:layout_marginBottom="15dp"
             android:textStyle="bold" />
 
     </LinearLayout>

@@ -46,11 +46,11 @@
 
         <activity
             android:name=".MyReportActivity"
-            android:exported="false" />
+            android:exported="true" />
 
         <activity
             android:name=".AccountActivity"
-            android:exported="false" />
+            android:exported="true" />
 
     </application>
 

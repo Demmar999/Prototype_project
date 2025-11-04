@@ -86,7 +86,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/etTitle"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="50dp"
                     android:hint="Title (e.g., project fund misuse)"
                     android:textColorHint="#9E9EA7"
                     android:textColor="#000000"
@@ -297,6 +297,7 @@
         android:background="@android:color/transparent">
 
         <LinearLayout
+            android:id="@+id/homeButtonLayout"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -331,6 +332,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/myReportsButtonLayout"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -341,7 +343,7 @@
                 android:layout_width="56dp"
                 android:layout_height="56dp"
                 app:cardCornerRadius="16dp"
-                app:cardBackgroundColor="#B8D0FF">
+                app:cardBackgroundColor="#AFA8FF">
 
                 <ImageView
                     android:layout_width="28dp"
@@ -364,6 +366,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/accountButtonLayout"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"

@@ -30,5 +30,15 @@
     <string name="access" translatable="false">Sign in to continue or use Guest</string>
     <string name="e_add" translatable="false">Email Address</string>
 
-
+    <!-- Home,my_reports,profile,report texts -->
+    <string name="clean">Barangay Clean-Up Drive</string>
+    <string name="Announcements">Announcements</string>
+    <string name="news">News and programs</string>
+    <string name="saturday">Saturday — Volunteers needed</string>
+    <string name="ongoing">Ongoing Projects</string>
+    <string name="projects">Projects in the barangay</string>
+    <string name="home">Home</string>
+    <string name="my_reports">My Reports</string>
+    <string name="Account">Account</string>
+    <string name="Report">Report</string>
 </resources>
