@@ -17,7 +17,7 @@
             android:orientation="vertical"
             android:padding="20dp">
 
-
+            <!-- Header Section -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -36,7 +36,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="BW"
+                        android:text="@string/bw"
                         android:textColor="#FFFFFF"
                         android:textSize="20sp"
                         android:textStyle="bold"
@@ -54,7 +54,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Profile"
+                        android:text="@string/Announcements"
                         android:textColor="#000000"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -62,7 +62,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Account &amp; preferences"
+                        android:text="@string/latest"
                         android:textColor="#7C7C8A"
                         android:textSize="12sp"
                         android:layout_marginTop="2dp" />
@@ -74,178 +74,165 @@
                     android:layout_height="48dp"
                     app:cardCornerRadius="14dp"
                     app:cardElevation="0dp"
-                    app:cardBackgroundColor="#8B7FFF">
+                    app:cardBackgroundColor="#C7C0FF">
 
-                    <ImageView
-                        android:layout_width="24dp"
-                        android:layout_height="24dp"
-                        android:layout_gravity="center"
-                        android:src="@drawable/setting"
-                        app:tint="#FFFFFF" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/plus"
+                        android:textColor="#6C5FFC"
+                        android:textSize="28sp"
+                        android:textStyle="bold"
+                        android:gravity="center" />
 
                 </androidx.cardview.widget.CardView>
 
             </LinearLayout>
 
-
+            <!-- Announcement Card 1 -->
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
-                app:cardCornerRadius="24dp"
+                app:cardCornerRadius="20dp"
                 app:cardElevation="0dp"
                 app:cardBackgroundColor="#FFFFFF">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:padding="24dp">
+                    android:orientation="horizontal"
+                    android:padding="20dp">
 
+                    <!-- Image Instead of View -->
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginEnd="16dp"
+                        android:src="@drawable/report"
+                        android:contentDescription="Clean-up Icon" />
 
+                    <!-- Content -->
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:gravity="center_vertical"
-                        android:layout_marginBottom="20dp">
+                        android:orientation="vertical">
 
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="64dp"
-                            android:layout_height="64dp"
-                            app:cardCornerRadius="18dp"
-                            app:cardElevation="0dp"
-                            app:cardBackgroundColor="#8B7FFF">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:text="P"
-                                android:textColor="#FFFFFF"
-                                android:textSize="28sp"
-                                android:textStyle="bold"
-                                android:gravity="center" />
-
-                        </androidx.cardview.widget.CardView>
-
-                        <LinearLayout
-                            android:layout_width="0dp"
+                        <TextView
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:orientation="vertical"
-                            android:layout_marginStart="16dp">
+                            android:text="Barangay Clean-Up Drive"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="4dp" />
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Pedro Santos"
-                                android:textColor="#000000"
-                                android:textSize="18sp"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Barangay: San Isidro"
-                                android:textColor="#7C7C8A"
-                                android:textSize="12sp"
-                                android:layout_marginTop="2dp" />
-
-                        </LinearLayout>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Saturday — Volunteers needed"
+                            android:textColor="#7C7C8A"
+                            android:textSize="13sp" />
 
                     </LinearLayout>
 
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Announcement Card 2 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="0dp"
+                app:cardBackgroundColor="#FFFFFF">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="20dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginEnd="16dp"
+                        android:src="@drawable/setting"
+                        android:contentDescription="Budget Icon" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_marginBottom="24dp">
+                        android:orientation="vertical">
 
-                        <com.google.android.material.button.MaterialButton
-                            android:id="@+id/btnEditProfile"
-                            android:layout_width="0dp"
-                            android:layout_height="48dp"
-                            android:layout_weight="1"
-                            android:layout_marginEnd="8dp"
-                            android:text="Edit Profile"
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Budget Hearing Results"
                             android:textColor="#000000"
-                            android:textSize="13sp"
-                            android:textAllCaps="false"
-                            app:backgroundTint="#F5F4F8"
-                            app:cornerRadius="12dp"
-                            android:minWidth="0dp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="4dp" />
 
-                        <com.google.android.material.button.MaterialButton
-                            android:id="@+id/btnChangePassword"
-                            android:layout_width="0dp"
-                            android:layout_height="48dp"
-                            android:layout_marginStart="8dp"
-                            android:layout_weight="1"
-                            android:minWidth="0dp"
-                            android:text="Change Password"
-                            android:textAllCaps="false"
-                            android:textColor="#000000"
-                            android:textSize="13sp"
-                            app:backgroundTint="#F5F4F8"
-                            app:cornerRadius="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Transparency report published"
+                            android:textColor="#7C7C8A"
+                            android:textSize="13sp" />
 
                     </LinearLayout>
 
+                </LinearLayout>
 
-                    <TextView
-                        android:layout_width="wrap_content"
+            </androidx.cardview.widget.CardView>
+
+            <!-- Announcement Card 3 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="0dp"
+                app:cardBackgroundColor="#FFFFFF">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="20dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginEnd="16dp"
+                        android:src="@drawable/baseline_home_24"
+                        android:contentDescription="Health Icon" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Language"
-                        android:textColor="#000000"
-                        android:textSize="16sp"
-                        android:textStyle="bold"
-                        android:layout_marginBottom="4dp" />
+                        android:orientation="vertical">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="English / Filipino"
-                        android:textColor="#7C7C8A"
-                        android:textSize="13sp"
-                        android:layout_marginBottom="20dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Health Program Outreach"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="4dp" />
 
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Free check-ups this week"
+                            android:textColor="#7C7C8A"
+                            android:textSize="13sp" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Notifications"
-                        android:textColor="#000000"
-                        android:textSize="16sp"
-                        android:textStyle="bold"
-                        android:layout_marginBottom="4dp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Push notifications on"
-                        android:textColor="#7C7C8A"
-                        android:textSize="13sp"
-                        android:layout_marginBottom="20dp" />
-
-
-                    <com.google.android.material.button.MaterialButton
-                        android:id="@+id/btnLogout"
-                        android:layout_width="wrap_content"
-                        android:layout_height="48dp"
-                        android:text="Logout"
-                        android:textColor="#FF5252"
-                        android:textSize="14sp"
-                        android:textAllCaps="false"
-                        android:textStyle="bold"
-                        app:backgroundTint="#FFFFFF"
-                        app:cornerRadius="12dp"
-                        app:strokeColor="#FFE5E5"
-                        app:strokeWidth="1dp"
-                        android:paddingStart="24dp"
-                        android:paddingEnd="24dp"
-                        android:layout_gravity="end"
-                        android:minWidth="0dp" />
+                    </LinearLayout>
 
                 </LinearLayout>
 
@@ -255,8 +242,7 @@
 
     </ScrollView>
 
-
-
+    <!-- Bottom Navigation -->
     <LinearLayout
         android:id="@+id/bottomNavigation"
         android:layout_width="match_parent"
@@ -270,7 +256,7 @@
         android:paddingEnd="24dp"
         android:background="@android:color/transparent">
 
-
+        <!-- Home Button -->
         <LinearLayout
             android:id="@+id/homeButtonLayout"
             android:layout_width="0dp"
@@ -306,7 +292,7 @@
 
         </LinearLayout>
 
-
+        <!-- My Reports Button -->
         <LinearLayout
             android:id="@+id/myReportsButtonLayout"
             android:layout_width="0dp"
@@ -342,7 +328,7 @@
 
         </LinearLayout>
 
-
+        <!-- Account Button -->
         <LinearLayout
             android:id="@+id/accountButtonLayout"
             android:layout_width="0dp"
@@ -380,7 +366,7 @@
 
     </LinearLayout>
 
-
+    <!-- Floating Report Button (Right Side) -->
     <LinearLayout
         android:id="@+id/reportButtonLayout"
         android:layout_width="wrap_content"

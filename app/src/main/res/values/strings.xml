@@ -41,4 +41,7 @@
     <string name="my_reports">My Reports</string>
     <string name="Account">Account</string>
     <string name="Report">Report</string>
+    <!-- Announcement -->
+    <string name="latest">Latest barangay updates</string>
+    <string name="plus">+</string>
 </resources>
