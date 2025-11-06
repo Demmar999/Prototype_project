@@ -17,7 +17,7 @@
             android:orientation="vertical"
             android:padding="20dp">
 
-            <!-- Main Card Container -->
+
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -32,9 +32,9 @@
                     android:orientation="vertical"
                     android:padding="32dp">
 
-                    <!-- Announcements Section -->
+
                     <TextView
-                        android:id="@+id/announcementImage"
+                        android:id="@+id/announcement"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/Announcements"
@@ -51,7 +51,7 @@
                         android:textSize="13sp"
                         android:layout_marginBottom="24dp" />
 
-                    <!-- Inner White Announcement Card -->
+
                     <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -67,18 +67,16 @@
                             android:padding="20dp"
                             android:gravity="center_vertical">
 
-                            <!-- 📸 Left Image -->
+
                             <ImageView
                                 android:id="@+id/announcementImage"
                                 android:layout_width="60dp"
                                 android:layout_height="60dp"
                                 android:layout_marginEnd="16dp"
                                 android:scaleType="centerCrop"
-                                android:background="@drawable/ic_launcher_image_background"
-                                android:src="@drawable/ic_launcher_image_background"
-                                android:contentDescription="Announcement image" />
+                                android:src="@drawable/cleaning" />
 
-                            <!-- 📄 Right Text Content -->
+
                             <LinearLayout
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
@@ -108,7 +106,7 @@
                     </androidx.cardview.widget.CardView>
 
 
-                    <!-- Ongoing Projects Section -->
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -133,7 +131,7 @@
 
     </ScrollView>
 
-    <!-- Bottom Navigation -->
+
     <LinearLayout
         android:id="@+id/bottomNavigation"
         android:layout_width="match_parent"
@@ -147,7 +145,7 @@
         android:paddingEnd="24dp"
         android:background="@android:color/transparent">
 
-        <!-- Home Button -->
+
         <LinearLayout
             android:id="@+id/homeButtonLayout"
             android:layout_width="0dp"
@@ -183,7 +181,7 @@
 
         </LinearLayout>
 
-        <!-- My Reports Button -->
+
         <LinearLayout
             android:id="@+id/myReportsButtonLayout"
             android:layout_width="0dp"
@@ -219,7 +217,7 @@
 
         </LinearLayout>
 
-        <!-- Account Button -->
+
         <LinearLayout
             android:id="@+id/accountButtonLayout"
             android:layout_width="0dp"
@@ -257,7 +255,7 @@
 
     </LinearLayout>
 
-    <!-- Floating Report Button (Right Side) -->
+
     <LinearLayout
         android:id="@+id/reportButtonLayout"
         android:layout_width="wrap_content"

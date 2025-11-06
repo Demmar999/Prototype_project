@@ -27,7 +27,7 @@
                 android:orientation="vertical"
                 android:padding="24dp">
 
-                <!-- Header Section -->
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -79,7 +79,7 @@
 
                 </LinearLayout>
 
-                <!-- Create Account Title -->
+
                 <TextView
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
@@ -97,7 +97,7 @@
                     android:textSize="12sp"
                     android:layout_marginBottom="20dp"/>
 
-                <!-- Name Label -->
+
                 <TextView
                    android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
@@ -107,7 +107,7 @@
                     android:layout_marginBottom="8dp"/>
 
 
-                <!-- First Name and Last Name Row -->
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -183,7 +183,7 @@
 
                 </LinearLayout>
 
-                <!-- Email Address Label -->
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -192,7 +192,7 @@
                     android:textSize="13sp"
                     android:layout_marginBottom="8dp" />
 
-                <!-- Email Input -->
+
                 <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -225,7 +225,7 @@
 
                 </com.google.android.material.textfield.TextInputLayout>
 
-                <!-- Phone Number Label -->
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -234,7 +234,7 @@
                     android:textSize="13sp"
                     android:layout_marginBottom="8dp" />
 
-                <!-- Phone Input -->
+
                 <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -267,7 +267,7 @@
 
                 </com.google.android.material.textfield.TextInputLayout>
 
-                <!-- Address Label -->
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -276,7 +276,7 @@
                     android:textSize="13sp"
                     android:layout_marginBottom="8dp" />
 
-                <!-- Address Input -->
+
                 <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -309,7 +309,7 @@
 
                 </com.google.android.material.textfield.TextInputLayout>
 
-                <!-- City Label -->
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -318,7 +318,7 @@
                     android:textSize="13sp"
                     android:layout_marginBottom="8dp" />
 
-                <!-- City Row -->
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -394,7 +394,7 @@
 
                 </LinearLayout>
 
-                <!-- Sign Up Button -->
+
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btnSignUp"
                     android:layout_width="wrap_content"

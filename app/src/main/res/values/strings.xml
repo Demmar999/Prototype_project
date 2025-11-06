@@ -14,7 +14,6 @@
     <string name="Loading_Int" translatable="false">Loading Interface</string>
     <string name="bwatch" translatable="false">Bwatch</string>
 
-    <!-- Sign up texts -->
     <string name="Name" translatable="false">Name</string>
     <string name="first_name" translatable="false">First name</string>
     <string name="last_name" translatable="false">Last name</string>
@@ -30,7 +29,6 @@
     <string name="access" translatable="false">Sign in to continue or use Guest</string>
     <string name="e_add" translatable="false">Email Address</string>
 
-    <!-- Home,my_reports,profile,report texts -->
     <string name="clean">Barangay Clean-Up Drive</string>
     <string name="Announcements">Announcements</string>
     <string name="news">News and programs</string>
@@ -41,7 +39,40 @@
     <string name="my_reports">My Reports</string>
     <string name="Account">Account</string>
     <string name="Report">Report</string>
-    <!-- Announcement -->
     <string name="latest">Latest barangay updates</string>
     <string name="plus">+</string>
+    <string name="budget_hearing">Budget Hearing Results</string>
+    <string name="budget_transparency">Transparency report published</string>
+    <string name="health_program">Health Program Outreach</string>
+    <string name="health_checkup">Free check-ups this week</string>
+    <string name="Profile">Profile</string>
+    <string name="preferences">Account &amp; preferences</string>
+    <string name="p">P</string>
+    <string name="pedro">Pedro Santos</string>
+    <string name="san_isidro">Barangay: San Isidro</string>
+    <string name="edit_Profile">Edit Profile</string>
+    <string name="change_password">Change Password</string>
+    <string name="language">Language</string>
+    <string name="eng">English / Filipino</string>
+    <string name="Notifications">Notifications</string>
+    <string name="push">Push notifications on</string>
+    <string name="Logout">Logout</string>
+    <string name="Track">Track progress &amp; responses</string>
+    <string name="fund">Project fund misuse (road)</string>
+    <string name="Submitted">Submitted on Sep 22, 2025</string>
+    <string name="Pending">Pending</string>
+    <string name="Garbage">Garbage collection delays</string>
+    <string name="Submitted_12">Submitted on Aug 12, 2025</string>
+    <string name="Review">In Review</string>
+    <string name="Streetlight">Streetlight project</string>
+    <string name="Resolved">Resolved on Jul 01, 2025</string>
+    <string name="Issue">Report an Issue</string>
+    <string name="Share">Share details - you may send anonymously</string>
+    <string name="Attach">Attach photo</string>
+    <string name="Add">Add Photo</string>
+    <string name="Location">Location</string>
+    <string name="Use">Use current location</string>
+    <string name="Map">Map</string>
+    <string name="on">ON</string>
+    <string name="Anonymously">Submit Anonymously</string>
 </resources>

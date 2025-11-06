@@ -3,6 +3,7 @@ package com.example.bwatch;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,18 +13,30 @@ public class HomeActivity extends AppCompatActivity {
     private LinearLayout homeButtonLayout;
     private LinearLayout myReportsButtonLayout;
     private LinearLayout accountButtonLayout;
+    private ImageView announcementImage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.home);  // Your home XML file
+        setContentView(R.layout.home);
 
-        // Find all navigation buttons
+
         reportButtonLayout = findViewById(R.id.reportButtonLayout);
         myReportsButtonLayout = findViewById(R.id.myReportsButtonLayout);
         accountButtonLayout = findViewById(R.id.accountButtonLayout);
+        announcementImage = findViewById(R.id.announcementImage);
 
-        // Report button - navigates to ReportActivity (report.xml)
+        if (announcementImage != null) {
+            announcementImage.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(HomeActivity.this, AnnouncementActivity.class);
+                    startActivity(intent);
+                }
+            });
+        }
+
+
         reportButtonLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -32,7 +45,6 @@ public class HomeActivity extends AppCompatActivity {
         });
 
 
-        // My Reports button - navigates to MyReportsActivity
         myReportsButtonLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -40,7 +52,7 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
-        // Account button - navigates to AccountActivity
+
         accountButtonLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -25,15 +25,14 @@ public class splash extends AppCompatActivity {
         ProgressBar progressBar = findViewById(R.id.progressBar);
         LinearLayout centerContent = findViewById(R.id.centerContent);
 
-        // ✅ Initialize Firebase
         FirebaseApp.initializeApp(this);
 
-        // ✅ Get an instance and test log
+
         FirebaseAnalytics analytics = FirebaseAnalytics.getInstance(this);
         if (analytics != null) {
             Log.d("FirebaseTest", "✅ Firebase Analytics initialized successfully");
 
-            // ✅ Send a test event to Firebase
+
             Bundle testEvent = new Bundle();
             testEvent.putString("status", "connected");
             FirebaseAnalytics.getInstance(this).logEvent("test_event", testEvent);
@@ -44,21 +43,21 @@ public class splash extends AppCompatActivity {
             Log.e("FirebaseTest", "❌ Firebase initialization failed!");
         }
 
-        // Fade in center content
+
         centerContent.setAlpha(0f);
         centerContent.animate()
                 .alpha(1f)
                 .setDuration(800)
                 .start();
 
-        // Animate progress bar
+
         ObjectAnimator progressAnimator = ObjectAnimator.ofInt(progressBar, "progress", 0, 100);
         progressAnimator.setDuration(3000);
         progressAnimator.setInterpolator(new AccelerateDecelerateInterpolator());
         progressAnimator.setStartDelay(500);
         progressAnimator.start();
 
-        // Navigate to login after 3.5 seconds
+
         new Handler(Looper.getMainLooper()).postDelayed(() -> {
             Intent intent = new Intent(splash.this, ui_login.class);
             startActivity(intent);

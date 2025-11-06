@@ -17,7 +17,7 @@
             android:orientation="vertical"
             android:padding="24dp">
 
-            <!-- Header Section -->
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -36,7 +36,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="BW"
+                        android:text="@string/bw"
                         android:textColor="#FFFFFF"
                         android:textSize="20sp"
                         android:textStyle="bold"
@@ -54,7 +54,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="My Reports"
+                        android:text="@string/my_reports"
                         android:textColor="#000000"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -62,7 +62,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Track progress &amp; responses"
+                        android:text="@string/Track"
                         android:textColor="#7C7C8A"
                         android:textSize="12sp"
                         android:layout_marginTop="2dp" />
@@ -71,7 +71,7 @@
 
             </LinearLayout>
 
-            <!-- Report Item 1 - Pending -->
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
@@ -80,13 +80,13 @@
                 app:cardCornerRadius="16dp"
                 android:layout_marginBottom="24dp">
 
-                <!-- Purple Dot Indicator -->
+
                 <View
                     android:layout_width="12dp"
                     android:layout_height="12dp"
                     android:background="#5B56E9"/>
 
-                <!-- Report Details -->
+
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -97,7 +97,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Project fund misuse (road)"
+                        android:text="@string/fund"
                         android:textColor="#000000"
                         android:textSize="15sp"
                         android:textStyle="bold"
@@ -106,13 +106,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Submitted on Sep 22, 2025"
+                        android:text="@string/Submitted"
                         android:textColor="#9E9EA7"
                         android:textSize="12sp" />
 
                 </LinearLayout>
 
-                <!-- Status Badge - Pending -->
+
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -124,7 +124,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Pending"
+                        android:text="@string/Pending"
                         android:textColor="#FFA726"
                         android:textSize="12sp"
                         android:textStyle="bold"
@@ -137,7 +137,7 @@
 
             </LinearLayout>
 
-            <!-- Report Item 2 - In Review -->
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
@@ -145,13 +145,13 @@
                 android:gravity="center_vertical"
                 android:layout_marginBottom="24dp">
 
-                <!-- Purple Dot Indicator -->
+
                 <View
                     android:layout_width="12dp"
                     android:layout_height="12dp"
                     android:background="#5B56E9" />
 
-                <!-- Report Details -->
+
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -162,7 +162,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Garbage collection delays"
+                        android:text="@string/Garbage"
                         android:textColor="#000000"
                         android:textSize="15sp"
                         android:textStyle="bold"
@@ -171,13 +171,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Submitted on Aug 12, 2025"
+                        android:text="@string/Submitted_12"
                         android:textColor="#9E9EA7"
                         android:textSize="12sp" />
 
                 </LinearLayout>
 
-                <!-- Status Badge - In Review -->
+
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -189,7 +189,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="In Review"
+                        android:text="@string/Review"
                         android:textColor="#7C5FFC"
                         android:textSize="12sp"
                         android:textStyle="bold"
@@ -202,7 +202,7 @@
 
             </LinearLayout>
 
-            <!-- Report Item 3 - Resolved -->
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
@@ -210,13 +210,13 @@
                 android:gravity="center_vertical"
                 android:layout_marginBottom="24dp">
 
-                <!-- Purple Dot Indicator -->
+
                 <View
                     android:layout_width="12dp"
                     android:layout_height="12dp"
                     android:background="#5B56E9" />
 
-                <!-- Report Details -->
+
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -227,7 +227,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Streetlight project"
+                        android:text="@string/Streetlight"
                         android:textColor="#000000"
                         android:textSize="15sp"
                         android:textStyle="bold"
@@ -236,13 +236,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Resolved on Jul 01, 2025"
+                        android:text="@string/Resolved"
                         android:textColor="#9E9EA7"
                         android:textSize="12sp" />
 
                 </LinearLayout>
 
-                <!-- Status Badge - Resolved -->
+
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -254,7 +254,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Resolved"
+                        android:text="@string/Resolved"
                         android:textColor="#66BB6A"
                         android:textSize="12sp"
                         android:textStyle="bold"

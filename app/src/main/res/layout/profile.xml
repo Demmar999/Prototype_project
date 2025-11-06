@@ -36,7 +36,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="BW"
+                        android:text="@string/bw"
                         android:textColor="#FFFFFF"
                         android:textSize="20sp"
                         android:textStyle="bold"
@@ -54,7 +54,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Profile"
+                        android:text="@string/Profile"
                         android:textColor="#000000"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -62,7 +62,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Account &amp; preferences"
+                        android:text="@string/preferences"
                         android:textColor="#7C7C8A"
                         android:textSize="12sp"
                         android:layout_marginTop="2dp" />
@@ -74,14 +74,14 @@
                     android:layout_height="48dp"
                     app:cardCornerRadius="14dp"
                     app:cardElevation="0dp"
-                    app:cardBackgroundColor="#C7C0FF">
+                    app:cardBackgroundColor="#8B7FFF">
 
                     <ImageView
                         android:layout_width="24dp"
                         android:layout_height="24dp"
                         android:layout_gravity="center"
                         android:src="@drawable/setting"
-                        app:tint="#6C5FFC" />
+                        app:tint="#FFFFFF" />
 
                 </androidx.cardview.widget.CardView>
 
@@ -115,12 +115,12 @@
                             android:layout_height="64dp"
                             app:cardCornerRadius="18dp"
                             app:cardElevation="0dp"
-                            app:cardBackgroundColor="#AFA8FF">
+                            app:cardBackgroundColor="#8B7FFF">
 
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:text="P"
+                                android:text="@string/p"
                                 android:textColor="#FFFFFF"
                                 android:textSize="28sp"
                                 android:textStyle="bold"
@@ -138,7 +138,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Pedro Santos"
+                                android:text="@string/pedro"
                                 android:textColor="#000000"
                                 android:textSize="18sp"
                                 android:textStyle="bold" />
@@ -146,7 +146,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Barangay: San Isidro"
+                                android:text="@string/san_isidro"
                                 android:textColor="#7C7C8A"
                                 android:textSize="12sp"
                                 android:layout_marginTop="2dp" />
@@ -168,7 +168,7 @@
                             android:layout_height="48dp"
                             android:layout_weight="1"
                             android:layout_marginEnd="8dp"
-                            android:text="Edit Profile"
+                            android:text="@string/edit_Profile"
                             android:textColor="#000000"
                             android:textSize="13sp"
                             android:textAllCaps="false"
@@ -183,7 +183,7 @@
                             android:layout_marginStart="8dp"
                             android:layout_weight="1"
                             android:minWidth="0dp"
-                            android:text="Change Password"
+                            android:text="@string/change_password"
                             android:textAllCaps="false"
                             android:textColor="#000000"
                             android:textSize="13sp"
@@ -196,7 +196,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Language"
+                        android:text="@string/language"
                         android:textColor="#000000"
                         android:textSize="16sp"
                         android:textStyle="bold"
@@ -205,16 +205,16 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="English / Filipino"
+                        android:layout_marginBottom="20dp"
+                        android:text="@string/eng"
                         android:textColor="#7C7C8A"
-                        android:textSize="13sp"
-                        android:layout_marginBottom="20dp" />
+                        android:textSize="13sp" />
 
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Notifications"
+                        android:text="@string/Notifications"
                         android:textColor="#000000"
                         android:textSize="16sp"
                         android:textStyle="bold"
@@ -223,17 +223,17 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Push notifications on"
+                        android:layout_marginBottom="20dp"
+                        android:text="@string/push"
                         android:textColor="#7C7C8A"
-                        android:textSize="13sp"
-                        android:layout_marginBottom="20dp" />
+                        android:textSize="13sp" />
 
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/btnLogout"
                         android:layout_width="wrap_content"
                         android:layout_height="48dp"
-                        android:text="Logout"
+                        android:text="@string/Logout"
                         android:textColor="#FF5252"
                         android:textSize="14sp"
                         android:textAllCaps="false"
