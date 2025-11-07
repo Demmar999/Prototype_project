@@ -8,6 +8,10 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.textfield.TextInputEditText;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.firestore.FirebaseFirestore;
 
 public class ui_login extends AppCompatActivity {
 
@@ -104,14 +108,21 @@ public class ui_login extends AppCompatActivity {
         }
 
 
-        Toast.makeText(ui_login.this, "Login successful!", Toast.LENGTH_SHORT).show();
+        FirebaseAuth mAuth = FirebaseAuth.getInstance();
 
+        mAuth.signInWithEmailAndPassword(email, password)
+                .addOnCompleteListener(this, task -> {
+                    if (task.isSuccessful()) {
+                        Toast.makeText(ui_login.this, "Login successful!", Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent(ui_login.this, HomeActivity.class);
+                        startActivity(intent);
+                        finish();
+                    } else {
+                        Toast.makeText(ui_login.this, "Login failed: " +
+                                task.getException().getMessage(), Toast.LENGTH_LONG).show();
+                    }
+                });
 
-        Intent intent = new Intent(ui_login.this, HomeActivity.class);
-        startActivity(intent);
-
-
-        finish();
     }
 
 

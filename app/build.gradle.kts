@@ -33,8 +33,19 @@ android {
 }
 
 dependencies {
-    implementation(platform("com.google.firebase:firebase-bom:34.5.0"))
+    // Firebase BOM
+    implementation(platform("com.google.firebase:firebase-bom:33.7.0"))
+
+    // Firebase Authentication
+    implementation("com.google.firebase:firebase-auth")
+
+    // Firebase Firestore
+    implementation("com.google.firebase:firebase-firestore")
+
+    // Firebase Analytics (optional)
     implementation("com.google.firebase:firebase-analytics")
+
+    // Your existing dependencies
     implementation(libs.appcompat)
     implementation(libs.material)
     testImplementation(libs.junit)
