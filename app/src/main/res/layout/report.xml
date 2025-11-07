@@ -117,15 +117,15 @@
                     android:id="@+id/etDescription"
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
-                    android:hint="Describe the issue in detail..."
-                    android:textColorHint="#9E9EA7"
-                    android:textSize="13sp"
-                    android:inputType="textMultiLine"
                     android:gravity="top"
+                    android:hint="Describe the issue in detail..."
+                    android:inputType="textMultiLine"
                     android:paddingStart="16dp"
-                    android:paddingEnd="16dp"
                     android:paddingTop="14dp"
-                    android:paddingBottom="14dp" />
+                    android:paddingEnd="16dp"
+                    android:paddingBottom="14dp"
+                    android:textColorHint="#9E9EA7"
+                    android:textSize="13sp" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
